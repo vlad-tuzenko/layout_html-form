@@ -1,10 +1,5 @@
-.form-field {
-  display: block;
+.form-field:not(:last-child) {
   margin-bottom: 10px;
-}
-
-.form-field:last-child {
-  margin-bottom: 0;
 }
 
 .field-block {

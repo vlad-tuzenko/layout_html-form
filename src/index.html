@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" onsubmit="onSubmit()">
+    <form
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      onsubmit="onSubmit()"
+      method="post"
+      >
       <fieldset class="field-block personal-info">
         <legend>Personal information</legend>
 
@@ -149,11 +153,11 @@
         </div>
 
         <div class="form-field work-rate">
-          <label for="work-rate">How do you rate our work?</label>
+          <label for="workRate">How do you rate our work?</label>
           <input
             type="range"
-            name="work-rate"
-            id="work-rate"
+            name="workRate"
+            id="workRate"
           >
         </div>
       </fieldset>
